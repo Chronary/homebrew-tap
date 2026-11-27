@@ -1,28 +1,28 @@
 class Chronary < Formula
   desc "Official Chronary CLI"
   homepage "https://chronary.ai"
-  version "0.14.0"
+  version "0.14.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/Chronary/chronary-cli/releases/download/v0.14.0/chronary_0.14.0_darwin_arm64.tar.gz"
-      sha256 "63e0c168a588d4a3afa0dcca8c04e57c1fc44a2e65725851908e6df160edac9c"
+      url "https://github.com/Chronary/chronary-cli/releases/download/v0.14.1/chronary_0.14.1_darwin_arm64.tar.gz"
+      sha256 "fbf45d7f9a8d62e277b37d618f7cea61eabfe93b8fbd8882da6a59edefa882b3"
     end
     on_intel do
-      url "https://github.com/Chronary/chronary-cli/releases/download/v0.14.0/chronary_0.14.0_darwin_amd64.tar.gz"
-      sha256 "254f00475404e4ec87bcc9e1c64a901f254a3eca9e791c0f3d5415c8c4d97516"
+      url "https://github.com/Chronary/chronary-cli/releases/download/v0.14.1/chronary_0.14.1_darwin_amd64.tar.gz"
+      sha256 "89ee3ac8e6cdf7d417237146a0098efbe3391aa275f4d044142784b39debaa9d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Chronary/chronary-cli/releases/download/v0.14.0/chronary_0.14.0_linux_arm64.tar.gz"
-      sha256 "db0be09de13ae7d1d85a2af80c8bc91e94ec10dac73465e1e5a324d0e51cfde7"
+      url "https://github.com/Chronary/chronary-cli/releases/download/v0.14.1/chronary_0.14.1_linux_arm64.tar.gz"
+      sha256 "0ce159b481554299727674a14664df3a55160415cbcd9babb1e8fcfd8083113d"
     end
     on_intel do
-      url "https://github.com/Chronary/chronary-cli/releases/download/v0.14.0/chronary_0.14.0_linux_amd64.tar.gz"
-      sha256 "d9307a5d9e755a77dd7373366eb44de758eb680fca212a34d5a741ac7de127cf"
+      url "https://github.com/Chronary/chronary-cli/releases/download/v0.14.1/chronary_0.14.1_linux_amd64.tar.gz"
+      sha256 "e1e7ed734db8f65e3868ceb85fae95f866f081789be0e0487ecbbc54e6b7a66b"
     end
   end
 
